@@ -1,0 +1,16 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #D5D6EA;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.headerUP {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
