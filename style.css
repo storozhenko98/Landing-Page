@@ -5,7 +5,7 @@
 .header {
     display: flex;
     background-color: #D5D6EA;
-    justify-content: space-between;
+    
     flex-direction: column;
 }
 
@@ -14,3 +14,40 @@
     justify-content: space-between;
     flex-direction: row;
 }
+
+.headerTitle {
+    margin-left: 25px;
+}
+
+.headerLinks ul {
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+}
+
+.headerLinks li {
+    margin: 10px;
+}
+
+.headerDOWN {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+.headerText {
+   justify-self: left;
+   flex: 1;
+   padding-right: 300x;
+}
+.headerProfPhoto {
+    justify-self: right;
+    flex: 1;
+    padding-top: 22px;
+    padding-left: 60px;
+    background-color: aqua;
+}
+
