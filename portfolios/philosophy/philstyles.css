@@ -1,0 +1,58 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+
+body {
+    background-color:azure;
+}
+
+.ThesesHolder {
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: column;
+}
+
+.tHeader {
+    flex: 1;
+    background-color: antiquewhite;
+    border-radius: 25px;
+}
+
+h2 {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.Theses{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ThesisOne, .ThesisTwo {
+    background-color: beige;
+    margin-top: 5px;
+    margin: 5px;
+    border-radius: 25px;
+    padding: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.toText, .ttText {
+    background-color: antiquewhite;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.ftr {
+    display: flex;
+    flex: 1;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    justify-content: center;
+}
