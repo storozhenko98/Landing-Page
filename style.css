@@ -38,6 +38,10 @@ body {
     border-radius: 25px;
     background-color: aliceblue;
     padding: 10px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: #D5D6EA;
+    border-width: 1px;
 }
 
 .headerDOWN {
@@ -67,12 +71,15 @@ body {
 }
 .headerText p {
     margin-left: 10px;
+    font-size: 18px;
 }
 
 .headerText button {
     margin-left: 10px;
     background-color: aliceblue;
     border-radius: 25px;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .headerProfPhoto {
@@ -95,6 +102,10 @@ body {
     border-radius: 25px;
     margin-bottom: 10px;
     flex-direction: column;
+}
+
+.portfolio h2 {
+    margin-left: 10px;
 }
 
 .portfolioUP {
@@ -212,7 +223,71 @@ body {
 
 .artistStatement {
     display: flex;
+    flex-direction: column;
     background-color: #D5D6EA;
     border-radius: 25px;
     margin-bottom: 10px;
+}
+
+.AboutHeader {
+    background-color: antiquewhite;
+    border-radius: 25px;
+}
+.AboutHeader h2 {
+    margin-left: 10px;
+}
+
+.quoteAttribute {
+    flex: 1;
+    margin: 10px;
+}
+
+.quoteAttribute p {
+    font-size: 18px;
+}
+
+.contactPage {
+    display: flex;
+    background-color: #D5D6EA;
+    border-radius: 25px;
+    flex-direction: column;
+}
+.contactPageUpper {
+    display: flex;
+    flex: 1;
+    background-color: antiquewhite;
+    border-radius: 25px;
+}
+
+.contactPageUpper h2 {
+    margin-left: 10px;
+}
+
+.contactPageLower {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.contactPageLower button {
+    width: 300px;
+    height: 100px;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: aliceblue;
+
+}
+
+.footer {
+    display: flex;
+    justify-self: center;
+}
+
+.footerText {
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
