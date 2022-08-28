@@ -10,7 +10,7 @@ body {
     background-color: #D5D6EA;
     border-radius: 25px;
     flex-direction: column;
-    
+    margin-bottom: 10px;
 }
 
 .headerUP {
@@ -93,5 +93,126 @@ body {
     display: flex;
     background-color: #D5D6EA;
     border-radius: 25px;
-    
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.portfolioUP {
+    flex: 1;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.portfolioDOWN {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.portfolioOne {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-width: 5px;
+    border-color:cornflowerblue;
+    border-style: solid;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+}
+
+.portfolioOneImg1 {
+    flex: 1;
+    border-width: 5px;
+    margin: 10px;
+    align-self: center;
+}
+
+.portfolioOneImg1 img{
+    width: 200px;
+    height: auto;
+    flex: 1;
+    border-radius: 25px;
+    align-self: center;
+}
+
+.portfolioOneSubtext{
+    align-self: center;
+    font-size: 26px;
+}
+
+.portfolioTwo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-width: 5px;
+    border-color:cornflowerblue;
+    border-style: solid;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+}
+
+.portfolioTwoImg1 {
+    flex: 1;
+    border-width: 5px;
+    margin: 10px;
+    align-self: center;
+}
+
+.portfolioTwoImg1 img{
+    width: 200px;
+    height: auto;
+    flex: 1;
+    border-radius: 25px;
+    align-self: center;
+}
+
+.portfolioTwoSubtext{
+    align-self: center;
+    font-size: 26px;
+}
+
+.portfolioThree {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-width: 5px;
+    border-color:cornflowerblue;
+    border-style: solid;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+}
+
+.portfolioThreeImg1 {
+    flex: 1;
+    border-width: 5px;
+    margin: 10px;
+    align-self: center;
+}
+
+.portfolioThreeImg1 img{
+    width: 200px;
+    height: auto;
+    flex: 1;
+    border-radius: 25px;
+    align-self: center;
+}
+
+.portfolioThreeSubtext{
+    align-self: center;
+    font-size: 26px;
+}
+
+
+
+
+.artistStatement {
+    display: flex;
+    background-color: #D5D6EA;
+    border-radius: 25px;
+    margin-bottom: 10px;
 }
