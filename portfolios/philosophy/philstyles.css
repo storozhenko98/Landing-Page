@@ -33,6 +33,7 @@ h2 {
     flex: 1;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .ThesisOne, .ThesisTwo {
