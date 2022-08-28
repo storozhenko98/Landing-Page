@@ -1,52 +1,97 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
 }
-
+body {
+    background-color:azure;
+}
 .header {
     display: flex;
     background-color: #D5D6EA;
-    
+    border-radius: 25px;
     flex-direction: column;
+    
 }
 
 .headerUP {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    border-radius: 25px;
+    background-color: antiquewhite;
 }
 
 .headerTitle {
     margin-left: 25px;
+    flex: 1;
 }
 
 .headerLinks ul {
     list-style: none;
     display: flex;
     margin-right: 50px;
+    flex: 1;
 }
 
 .headerLinks li {
     margin: 10px;
+    border-radius: 25px;
+    background-color: aliceblue;
+    padding: 10px;
 }
 
 .headerDOWN {
     display: flex;
+    flex: 1;
     flex-direction: row;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 25px;
     margin-right: 50px;
     justify-content: space-between;
+    gap: 10px;
 }
 .headerText {
    justify-self: left;
    flex: 1;
-   padding-right: 300x;
+   padding-right: 10px;
+   background-color: antiquewhite;
+   border-radius: 25px;
 }
-.headerProfPhoto {
-    justify-self: right;
-    flex: 1;
-    padding-top: 22px;
-    padding-left: 60px;
+.headerText h1 {
+    margin-left: 10px;
+}
+.headerText h3 {
+    margin-left: 10px;
+   
+}
+.headerText p {
+    margin-left: 10px;
 }
 
+.headerText button {
+    margin-left: 10px;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+
+.headerProfPhoto {
+    display: flex;
+    justify-self: right;
+    flex: 1;
+}
+
+.headerProfPhoto img {
+    width: 300px;
+    height: auto;
+    flex: 1;
+    border-radius: 25px;
+    align-self: center;
+}
+
+.portfolio {
+    display: flex;
+    background-color: #D5D6EA;
+    border-radius: 25px;
+    
+}
